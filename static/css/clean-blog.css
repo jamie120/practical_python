@@ -206,6 +206,8 @@ header.masthead .site-heading {
 header.masthead .page-heading,
 header.masthead .site-heading {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header.masthead .page-heading h1,
@@ -216,11 +218,11 @@ header.masthead .site-heading h1 {
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.1;
   display: block;
-  margin: 10px 0 0;
+  margin: 10px 0 10px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -228,6 +230,10 @@ header.masthead .site-heading .subheading {
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 80px;
+  }
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading  {
+      font-size: 24px;
   }
 }
 

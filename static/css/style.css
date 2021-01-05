@@ -1,0 +1,9 @@
+#subheadings {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 70%;
+    align-self: center;
+    padding: 5px;
+}
