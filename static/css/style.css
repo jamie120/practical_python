@@ -1,9 +1,94 @@
 #subheadings {
-    border: 5px solid white;
+    border: 1px solid white;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgba(51, 51, 51, 0.3);
     color: white;
-    width: 70%;
+    width: 50%;
     align-self: center;
-    padding: 5px;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+#subheadings span {
+    font-size: 1.2rem;
+}
+
+.site-heading {
+    margin-top: 15vh;
+}
+
+#hero-landing {
+    height: 100vh;
+}
+
+.border-muted {
+    border: 1px solid rgba(109, 109, 109, 0.4) !important;
+}
+
+.card {
+    border: unset !important;
+}
+
+.br-2 {
+    border-radius: 20px;
+}
+
+.br-1 {
+    border-radius: 0.25rem;
+}
+
+.portfolio-item {
+    min-height: 26vh;
+}
+
+.img-fluid-card {
+    height: 16vh !important;
+    width: 100%;
+}
+
+.fa {
+    font-size: 2.5rem;
+}
+
+/* Slide elements */
+
+
+#portfolio-item-2, #portfolio-item-3, #portfolio-item-1, .info  {
+    opacity: 0;
+}
+
+.come-in {
+  transform: translateY(150px);
+  opacity: 0;
+  animation: come-in 1.2s ease forwards;
+}
+
+.come-up {
+  transform: translateY(200px);
+  animation: come-in 2s ease forwards;
+}
+
+.come-in-left {
+  transform: translateY(200px);
+  animation: come-in 1.5s ease forwards;
+}
+
+.come-in-right {
+  transform: translateY(200px);
+  animation: come-in 2.5s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 1s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { 
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 1s; /* So they look staggered */
 }

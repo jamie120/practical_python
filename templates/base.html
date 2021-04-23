@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.css') }}" type="text/css">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/e7ddb4ef7e.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet">
 
-    <title>Jamie Rollst</title>
+    <title>Jamie Rolls</title>
 </head>
 <body>
   <!-- Navigation -->
@@ -38,18 +40,25 @@
     </div>
   </nav>
 
-  <!-- Page Header -->
+<!-- Page Header -->
 <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1514428631868-a400b561ff44?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80')">
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container" id="hero-landing">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Jamie Rolls</h1>
-            <div id="subheadings">
+            <h1>JAMIE ROLLS</h1>
+            <h2 class="mb-4">Junior Software Developer</h2>
+            <div id="subheadings" class="mb-5">
                 <span class="subheading">Web Developer / Software Developer</span>
                 <span class="subheading">HTML, CSS, JavaScript & Python</span>
             </div>
+            <div class="row">
+                <div class="col"><i class="fa fa-github large-text" aria-hidden="true"></i></div>
+                <div class="col"><i class="fa fa-github" aria-hidden="true"></i></div>
+                <div class="col"><i class="fa fa-github" aria-hidden="true"></i></div>
+            </div>
+            <a href="#featured" id="see-work-link" class="btn mt-5 text-white">SEE MORE</a>
           </div>
         </div>
       </div>
@@ -107,6 +116,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="{{ url_for('static', filename='js/clean-blog.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   <script>
       $('#copyright').text(new Date ().getFullYear());
   </script>

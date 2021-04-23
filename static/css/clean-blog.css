@@ -185,7 +185,7 @@ header.masthead .overlay {
   height: 100%;
   width: 100%;
   background-color: #212529;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 header.masthead .page-heading,
@@ -295,7 +295,7 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > .post-meta {
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   margin-top: 0;
   color: #868e96;

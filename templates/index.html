@@ -1,39 +1,139 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">
-            <h2 class="post-title">
-              D R Plastering Services - Website
-            </h2>
-            <h3 class="post-subtitle">
-              A multi-page services website, created using only HTML and CSS.
-            </h3>
-            </a>
-            <p class="post-meta">Created as part of Sofware Developer Diploma with Code Institute - Milestone Project 1
-            November, 2020</p>
-            <a href="https://github.com/jamie120/ms1_d_r_plastering" target="_blank">View Github Repository</a>
-            <hr>
-            <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">View Live Site</a>
-        </div>
+      <div class="col-12 mx-auto">
+        <h1 id="featured" class="text-center mb-5">PORTFOLIO</h1>
         <hr>
-        <div class="post-preview">
-          <a href="jamie120.github.io/ms2-soma-post-production-services/" target="_blank">
-            <h2 class="post-title">
-              SOMA Post Production Audio Services - Website
-            </h2>
-            <h3 class="post-subtitle">
-              An interactive multi-page services website, created using HTML, CSS & JavaScript.
-            </h3>
-            </a>
-            <p class="post-meta">Created as part of Sofware Developer Diploma with Code Institute - Milestone Project 2
-            November, 2020</p>
-            <a href="https://github.com/jamie120/MS2-Soma-Post-Production-Services" target="_blank">View Github Repository</a>
-            <hr>
-            <a href="jamie120.github.io/ms2-soma-post-production-services/" target="_blank">View Live Site</a>
+        <div class="row w-100">
+            <div id="portfolio-item-1" class="col-lg-4">
+                <div class="portfolio-item mx-auto border-muted br-2 p-4">
+                    <div class="row flex-column">
+                        <div class="col-11 text-center mx-auto">
+                            <img class="img-fluid-card br-1 portfolio-image-card" src="static/img/responsive-project-screenshot-ms1.png" alt="" />
+                        </div>
+                        <div class="col-11 text-center mx-auto">
+                            <button type="button" class="btn btn-dark mt-3" data-toggle="modal" data-target=".portfolio-item-modal-lg">Deans Plastering</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-item-2" class="col-lg-4">
+                <div class="portfolio-item mx-auto border-muted br-2 p-4">
+                    <div class="row flex-column">
+                        <div class="col-11 text-center mx-auto">
+                            <img class="img-fluid-card br-1 portfolio-image-card" src="static/img/responsive-project-screenshot-ms2.png" alt="" />
+                        </div>
+                        <div class="col-11 text-center mx-auto">
+                            <button type="button" class="btn btn-dark mt-3" data-toggle="modal" data-target=".portfolio-item-modal-lg-2">Soma Audio Services</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-item-3" class="col-lg-4">
+                <div class="portfolio-item mx-auto border-muted br-2 p-4">
+                    <div class="row flex-column">
+                        <div class="col-11 text-center mx-auto">
+                            <img class="img-fluid-card br-1 portfolio-image-card" src="static/img/responsive-project-screenshot-ms3.png" alt="" />
+                        </div>
+                        <div class="col-11 text-center mx-auto">
+                            <button type="button" class="btn btn-dark mt-3" data-toggle="modal" data-target=".portfolio-item-modal-lg-3">Eat Vegan Recipes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
         <hr>
+ 
+
+
+        <!--MODALS-->
+        
+        <div class="modal fade portfolio-item-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="post-preview p-5">
+                        <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">
+                            <h2 class="post-title text-center mb-3">
+                            D R Plastering Services - Website
+                            </h2>
+                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms1.png">
+                            <h3 class="post-subtitle text-center">
+                            A multi-page services website, created using only HTML and CSS.
+                            </h3>
+                        </a>
+                        <p class="post-meta">Created as part of Sofware Developer Diploma with Code Institute - Milestone Project 1
+                        November, 2020</p>
+                        <div class="row w-100">
+                            <div class="col-6 text-center">
+                                <a class="btn w-75 mt-4 border-muted" href="https://github.com/jamie120/ms1_d_r_plastering" target="_blank">View Github repo</a>
+                            </div>
+                            <div class="col-6 text-center">
+                            <a class="btn w-75 mt-4 border-muted" href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">View Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade portfolio-item-modal-lg-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="post-preview p-5">
+                        <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">
+                            <h2 class="post-title text-center mb-3">
+                            SOMA Post Production Audio Services - Website
+                            </h2>
+                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms2.png">
+                            <h3 class="post-subtitle text-center">
+                            An interactive multi-page services website, created using HTML, CSS & JavaScript.
+                            </h3>
+                        </a>
+                        <p class="post-meta">Created as part of Sofware Developer Diploma with Code Institute - Milestone Project 2
+                        November, 2020</p>
+                        <div class="row w-100">
+                            <div class="col-6 text-center">
+                                <a class="btn w-75 mt-4 border-muted" href="https://github.com/jamie120/MS2-Soma-Post-Production-Services" target="_blank">View Github repo</a>
+                            </div>
+                            <div class="col-6 text-center">
+                            <a class="btn w-75 mt-4 border-muted" href="jamie120.github.io/ms2-soma-post-production-services/" target="_blank">View Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="modal fade portfolio-item-modal-lg-3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="post-preview p-5">
+                        <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">
+                            <h2 class="post-title text-center mb-3">
+                            SOMA Post Production Audio Services - Website
+                            </h2>
+                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms3.png">
+                            <h3 class="post-subtitle text-center">
+                            An interactive multi-page services website, created using HTML, CSS & JavaScript.
+                            </h3>
+                        </a>
+                        <p class="post-meta">Created as part of Sofware Developer Diploma with Code Institute - Milestone Project 2
+                        November, 2020</p>
+                        <div class="row w-100">
+                            <div class="col-6 text-center">
+                                <a class="btn w-75 mt-4 border-muted" href="https://github.com/jamie120/MS2-Soma-Post-Production-Services" target="_blank">View Github repo</a>
+                            </div>
+                            <div class="col-6 text-center">
+                            <a class="btn w-75 mt-4 border-muted" href="jamie120.github.io/ms2-soma-post-production-services/" target="_blank">View Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
         <!-- Pager -->
         <div class="clearfix">
