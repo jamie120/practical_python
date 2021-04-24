@@ -50,11 +50,39 @@
     font-size: 2.5rem;
 }
 
+.modal-content {
+    border-radius: 1.3rem !important;
+}
+
 /* Slide elements */
 
 
-#portfolio-item-2, #portfolio-item-3, #portfolio-item-1, .info  {
+#portfolio-item-2, #portfolio-item-3, #portfolio-item-1, .info, .tech-element, .fa, .site-heading, #see-work-link  {
     opacity: 0;
+}
+
+.fade-in {
+    animation: come-in 3s ease forwards;
+}
+
+.site-heading {
+    animation: come-in 6s ease forwards;
+}
+
+.fa.fa-github {
+    animation: come-in 6s ease forwards;
+}
+
+.fa.fa-linkedin {
+    animation: come-in 6s ease forwards 1500ms;
+}
+
+.fa.fa-twitter {
+    animation: come-in 6s ease forwards 2500ms;
+}
+
+#see-work-link, .fa.fa-chevron-down {
+    animation: come-in 4s ease forwards 4s;
 }
 
 .come-in {

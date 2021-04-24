@@ -66,6 +66,17 @@ $(document).ready(function(){
             } 
         });
 
+        $(".tech-element").each(function(i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+                setTimeout(
+                    function() 
+                    {
+                    el.addClass("fade-in");
+                    }, 800);
+            } 
+        });
+
     });
 
 });

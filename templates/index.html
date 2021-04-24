@@ -1,9 +1,82 @@
 {% extends "base.html" %}
 {% block content %}
+
+<section id="skills" class="">
+    <div class="row">
+        <div class="col mb-5">
+            <h4 class="mb-4">ABOUT:</h4>
+            <p>Towards the latter of 2020, I ended a long but rewarding stretch of my working career in hospitality and retail. As many others have, I was made redundant from my role with prospects of employment in my field of work scarce and job security at its lowest. 
+                It was being in this situation which led me to wonder, was it now was the time to explore a career which allows me to express my creative self and is able to challenge my ways of thinking?
+            </p>
+            <p>
+                After careful consideration and thought into what path I would pursue, I felt a bit lost. Until I was recommended to look into coding by a friend. 
+                Througout college and university I trained in Sound Production and have continued to be deeply interested in the use of music production software.
+                My passion to create and learn had always been subject to finding the time to get into my music studio.
+            </p>
+            <p>
+                I quickly discovered how expressive coding could be. I took to learning immediately and began self teaching with a Web Development Bootcamp which I purchased from Udemy.
+                Shortly after completing this course, I decided I would take a certified teaching path, learning through Code Institute.
+            </p>
+            <p>
+                Six months on, I've now been fully immersed into the world of coding since September 2020 and expect to receive my Diploma in Sofware Development in the coming months. 
+            </p>
+            <p>
+                I'm now seeking employment in the tech industry and couldn't be happier in myself to be looking for a job, knowing that it will be in a field which I am able to express and challenge myself.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">
+        <h4 class="mb-4">SKILLS:</h4>
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col text-center">
+                    <div class="tech-element">
+                         <h4>HTML</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/html.png">
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="tech-element">
+                        <h4>CSS</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/css.png">
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="tech-element">
+                        <h4>JavaScript</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/javascript.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col text-center">
+                    <div class="tech-element">
+                        <h4>Python</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/python.png">
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="tech-element">
+                        <h4>Flask</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/flask.png">
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="tech-element">
+                        <h4>Django</h4>
+                        <img class="img-fluid w-25" src="static/img/logos/django.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
     <div class="row">
       <div class="col-12 mx-auto">
-        <h1 id="featured" class="text-center mb-5">PORTFOLIO</h1>
-        <hr>
+       <h4 class="mb-4">PORTFOLIO:</h4>
         <div class="row w-100">
             <div id="portfolio-item-1" class="col-lg-4">
                 <div class="portfolio-item mx-auto border-muted br-2 p-4">
@@ -50,14 +123,14 @@
         <!--MODALS-->
         
         <div class="modal fade portfolio-item-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-lg br-2">
                 <div class="modal-content">
                     <div class="post-preview p-5">
                         <a href="https://jamie120.github.io/ms1_d_r_plastering/index.html" target="_blank">
                             <h2 class="post-title text-center mb-3">
                             D R Plastering Services - Website
                             </h2>
-                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms1.png">
+                            <img class="img-fluid text-center border-muted br-2 mb-3" src="static/img/responsive-project-screenshot-ms1.png">
                             <h3 class="post-subtitle text-center">
                             A multi-page services website, created using only HTML and CSS.
                             </h3>
@@ -86,7 +159,7 @@
                             <h2 class="post-title text-center mb-3">
                             SOMA Post Production Audio Services - Website
                             </h2>
-                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms2.png">
+                            <img class="img-fluid text-center border-muted br-2 mb-3" src="static/img/responsive-project-screenshot-ms2.png">
                             <h3 class="post-subtitle text-center">
                             An interactive multi-page services website, created using HTML, CSS & JavaScript.
                             </h3>
@@ -114,7 +187,7 @@
                             <h2 class="post-title text-center mb-3">
                             SOMA Post Production Audio Services - Website
                             </h2>
-                            <img class="img-fluid text-center mb-3" src="static/img/responsive-project-screenshot-ms3.png">
+                            <img class="img-fluid text-center border-muted br-2 mb-3" src="static/img/responsive-project-screenshot-ms3.png">
                             <h3 class="post-subtitle text-center">
                             An interactive multi-page services website, created using HTML, CSS & JavaScript.
                             </h3>
